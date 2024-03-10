@@ -28,4 +28,4 @@
 
 ---
 
-*I will always update this repo with new apps, config files, scripts*
+*I will always update this repo with new apps, config files, scripts, this is just the initial commit*
