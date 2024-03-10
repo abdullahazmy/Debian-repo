@@ -21,3 +21,7 @@
 - nitrogen -> used a wallpaper changer for i3 window manager
 - PulseAduio -> used to manage and control sound system
 - clion -> used as an IDE for c++
+
+---
+
+*I will always update this repo with new apps, config files, scripts*
