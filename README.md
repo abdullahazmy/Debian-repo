@@ -4,6 +4,7 @@
 ---
 
 #### Notes
+- Is better to install gnome first if it's your first time with linux
 - To run a script type `chmod +x scriptname`  and make sure to be at the directory of the script
 - Then run `sudo ./scriptname`
 
