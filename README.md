@@ -32,4 +32,14 @@
 
 ---
 
+### i3 shortcuts
+- win + d -> shows dmenue
+- win + return -> opens the terminal
+- win + c -> opens brave-browser
+- win + q -> opens vscode
+- win + shift + x -> lock the screen
+- win + shift + o -> allows you to choose [s,l] s-> shutdown, l-> logoff
+- win + z -> shows you opened apps
+- win + shfit + q -> close the opened app 
+
 *I will always update this repo with new apps, config files, scripts, this is just the initial commit*
