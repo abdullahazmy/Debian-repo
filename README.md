@@ -45,4 +45,7 @@
  
 ---
 
+- To install nvidia [drivers](https://linuxhint.com/install-nvidia-drivers-debian-11/)
+
+---
 *I will always update this repo with new apps, config files, scripts, this is just the initial commit*
