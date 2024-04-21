@@ -5,6 +5,7 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+exec --no-startup-id compton
 exec --no-startup-id nitrogen --restore 
 exec --no-startup-id picom
 exec --no-startup-id flameshot
@@ -201,24 +202,24 @@ bar {
         pasink pasource \
         -p time.format="%H:%M %X"  \
         -t powerline
-        # greyish-powerline
+        # -t greyish-powerline
         #we can add disk here    (I used the theme as -t powerline [before]) https://bumblebee-status.readthedocs.io/en/main/themes.html
        position top
        
-       colors {
-        background #282C34
-        statusline #ffffff  
-        separator  #666666
+#        colors {
+#         background #282C34
+#         statusline #ffffff  
+#         separator  #666666
 
-        focused_workspace #C678DD #C678DD #ffffff
-        active_workspace #ABB2BF #ABB2BF #282C34
-        inactive_workspace #ABB2BF #ABB2BF #282C34
-        urgent_workspace #2f343a #900000 #ffffff
-        binding_mode #2f343a #900000 #ffffff
+#         focused_workspace #C678DD #C678DD #ffffff
+#         active_workspace #ABB2BF #ABB2BF #282C34
+#         inactive_workspace #ABB2BF #ABB2BF #282C34
+#         urgent_workspace #2f343a #900000 #ffffff
+#         binding_mode #2f343a #900000 #ffffff
 
 
         
-       }
+#        }
         
 }
 
@@ -323,9 +324,18 @@ bindsym XF86Launch1 exec xset dpms force off
 # Keyboard Layouts Arabic
 exec setxkbmap -model pc105 -layout us,ar -option 'grp:alt_shift_toggle'
 
+
+# close all running window tabes
+bindsym Control+Shift+q [class=".*"] kill
+
 #shrotcuts
 bindsym $mod+c exec brave-browser
 bindsym $mod+z exec rofi -show window
 bindsym $mod+q exec code
 bindsym $mod+p exec nautilus
+bindsym $mod+m exec qalculate
+
+
+
+
 
