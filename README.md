@@ -42,6 +42,7 @@
 - win + shift + o -> allows you to choose [s,l] s-> shutdown, l-> logoff
 - win + z -> shows you opened apps
 - win + shfit + q -> close the opened app
+- Ctr + shift + q -> close all running windows
  
 ---
 
