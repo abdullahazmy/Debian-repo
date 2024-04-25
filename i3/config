@@ -333,9 +333,3 @@ bindsym Control+Shift+q [class=".*"] kill
 #bindsym $mod+z exec rofi -show window
 #bindsym $mod+q exec code
 #bindsym $mod+p exec nautilus
-#bindsym $mod+m exec qalculate
-
-
-
-
-
