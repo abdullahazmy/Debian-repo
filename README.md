@@ -1,5 +1,6 @@
 ### The final look 
-![image](https://github.com/abdullahazmy/Debian-repo/assets/125517573/14808338-246a-4b00-bd65-597d2a8bac83)   ![image](https://github.com/abdullahazmy/Debian-repo/assets/125517573/629f780b-e631-4abe-8c67-9a1b82a0bd62)
+![image](https://github.com/abdullahazmy/Debian-repo/assets/125517573/28506ee5-06dd-479d-8346-528d74ea0002)
+
 
 ---
 
